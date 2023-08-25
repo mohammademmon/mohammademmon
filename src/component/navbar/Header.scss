@@ -1,0 +1,33 @@
+#course {
+  background-color: $black_color;
+  padding: 10px 0;
+  border-bottom: 1px solid $white_color;
+  a {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: $white_color;
+    text-decoration: none;
+    span {
+      color: $primary_color;
+    }
+  }
+}
+
+#nav_custom {
+  padding: 10px 0;
+  background-color: $black_color;
+  .menu {
+    gap: 30px;
+    .menu_items {
+      text-decoration: none;
+      color: $white_color;
+      font-size: 16px;
+      text-transform: uppercase;
+      transition: all linear 0.3s;
+      &:hover {
+        color: $primary_color;
+      }
+    }
+  }
+}

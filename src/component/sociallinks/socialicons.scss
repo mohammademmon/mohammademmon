@@ -1,0 +1,17 @@
+.social_icons {
+  .items {
+    &:first-child {
+      svg {
+        font-size: 50px;
+      }
+    }
+    svg {
+      fill: $white_color;
+      font-size: 18px;
+      transition: all linear 0.3s;
+      &:hover {
+        fill: $primary_color;
+      }
+    }
+  }
+}
